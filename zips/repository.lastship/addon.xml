@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.lastship" name="Lastship repository" version="2019.08.14" provider-name="Lastship">
+	<extension point="xbmc.addon.repository" name="Lastship repository">
+		<info compressed="false">https://raw.githubusercontent.com/privateship/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/privateship/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/privateship/repo/tree/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Lastship repository</summary>
+		<description lang="en">Lastship repository</description>
+		<platform>all</platform>
+		<forum>http://lastship.square7.ch/home</forum>
+   	</extension>
+</addon>

@@ -1,0 +1,9 @@
+[submodule "script.module.js2py"]
+	path = script.module.js2py
+	url = https://github.com/jdollarKodi/script.module.js2py.git
+[submodule "script.module.pyjsparser"]
+	path = script.module.pyjsparser
+	url = https://github.com/jdollarKodi/script.module.pyjsparser.git
+[submodule "script.module.tzlocal"]
+	path = script.module.tzlocal
+	url = https://github.com/jdollarKodi/script.module.tzlocal.git
