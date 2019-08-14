@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.lastship" version="2019.07.05" name="Lastship" provider-name="Lastship">
+    <requires>
+            <import addon="xbmc.python" version="2.19.0" />
+            <import addon="repository.lastship" version="2018.0.0" />            
+            <import addon="script.module.resolveurl" version="5.0.00"/>
+            <import addon="script.module.metahandler" version="1.0.0" />
+            <import addon="script.module.requests" version="2.12.4"/>
+            <import addon="script.module.cfscrape"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="lastship.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">    
+    </extension>
+</addon>
